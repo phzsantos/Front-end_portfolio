@@ -1,0 +1,67 @@
+*
+{
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+    text-decoration: none;
+}
+
+body
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    height: 100vh;
+
+    .container
+    {
+        display: flex;
+        justify-content: center;
+
+        .circulo
+        {   
+            position: relative;
+
+            width: 12em;
+            height: 12em;
+            margin-top: 0.3em;
+            margin-right: 3em;
+            
+            border-radius: 12em;
+            background-color: blue;
+
+            .foto
+            {
+                width: 11em;
+
+                position: absolute;
+                top: 2.5em;
+            }
+        }
+
+        .texto
+        {
+            display: flex;
+            flex-direction: column;
+            gap: 1em;
+
+            h1
+            {
+                color: blue;
+            }
+
+            .icones
+            {
+                display: flex;
+                
+                img
+                {
+                    width: 2em;
+                    margin-right: 2em;
+                }
+            }
+        }
+        
+    }
+}
+
